@@ -62,7 +62,7 @@ void print_game_screen(int stage_width, int stage_height)
 int print_introduction_screen()
 {
 	//std::cout << "\n******************************************" << std::endl;
-	std::cout << "\n\n지렁이 게임은 플레이어가 지렁이를 조종하여\n먹이를 먹고 몸 길이를 늘려 점수를 획득하는 \n게임 입니다." << std::endl;
+	std::cout << "\n\n지렁이 게임은 플레이어가 WASD를 사용해 지렁이를 조종하여\n먹이를 먹고 몸 길이를 늘려 점수를 획득하는 \n게임 입니다." << std::endl;
 	std::cout << "\n타이틀화면으로 (Y/N)\n" << std::endl;
 	return 0;
 }
